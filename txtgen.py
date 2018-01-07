@@ -10,7 +10,7 @@ import random
 import sys
 import io
 
-path = get_file('bukowski.txt', origin='')
+path = get_file('orwell.txt', origin='http://m.uploadedit.com/bbtc/151535271592.txt')
 text = io.open(path, encoding='utf-8').read().lower()
 print('corpus length:', len(text))
 
